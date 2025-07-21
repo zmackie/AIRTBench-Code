@@ -63,6 +63,9 @@ ignore = [
 [tool.ruff.format]
 skip-magic-trailing-comma = false
 
+[tool.uv.workspace]
+members = ["airtbench-smolagents"]
+
 [dependency-groups]
 dev = [
     "types-aiofiles>=24.1.0.20250708",
